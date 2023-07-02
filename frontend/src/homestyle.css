@@ -1,0 +1,19 @@
+#null{
+    display: flex;
+    align-items: center;
+}
+.notite{
+    height: 400px;
+    width: 300px;
+    border:2px solid #000;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.not {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.notbox{
+    margin-left: 50px;
+    margin-right: 50px;
+}
