@@ -4,25 +4,21 @@ import "bootstrap/dist/css/bootstrap.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import  Register  from "./Register";
 import Home from './home';
-import Navigation from './Navigation';
+import Layout from './Layout';
+import Textai from './textai';
 
 function App() {
   return (
     <Router>
-      <div>
-      <Navigation />
       <Routes>
-          <Route path="/" element={<Home />} />
-       </Routes>
-      </div>
-      <div>
-        <Routes>
-          <Route path="/login" element={<Login />} />
+          <Route element={<Layout/>}>
+          <Route path="/" element={<Home />}/>
+          <Route path="/textai" element={<Textai/>} />
+          </Route>
+          <Route path="/login" element={<Login />} /> 
           <Route path="/register" element={<Register />} />
-       </Routes>
-      </div>
+       </Routes> 
     </Router>
-
   );
 }
 

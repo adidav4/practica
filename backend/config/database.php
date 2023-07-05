@@ -44,19 +44,13 @@ return [
         ],
 
         'mysql' => [
-            'read' => array(
-                'host' => '192.168.1.1',
-            ),
-            'write' => array(
-                'host' => '196.168.1.2'
-            ),
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => env('DB_HOST', 'mysql'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('practica', 'forge'),
-            'username' => env('root', 'forge'),
-            'password' => env('student', ''),
+            'database' => env('DB_DATABASE', 'forge'),
+            'username' => env('DB_USERNAME', 'forge'),
+            'password' => env('DB_PASSWORD', ''),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',

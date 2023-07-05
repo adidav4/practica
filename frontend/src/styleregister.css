@@ -1,7 +1,92 @@
-.login{
-    height: 300px;
-    margin-bottom: 20px;
-  }
-  .log{
-    height: 350px;
-  }
+.button-18 {
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  width: 70%;
+  min-height: 40px;
+  overflow: hidden;
+  padding: 0px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+#email{
+  margin-bottom: 10px;
+}
+#password{
+  margin-bottom: 10px;
+}
+label{
+  padding-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+.register{
+  display: flex;
+  justify-content: center;
+  border:3px solid rgb(8, 28, 95);
+  border-radius: 15px;
+  height: 390px;
+  margin-bottom: 20px;
+}
+.reg{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 440px;
+  margin: auto;
+}
+.title{
+  text-align: center;
+  color: white;
+}
+#link{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+#but{
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.alert{
+  color: white;
+}

@@ -12,10 +12,9 @@
   font-weight: 600;
   justify-content: center;
   line-height: 20px;
-  max-width: 480px;
   min-height: 40px;
-  min-width: 0px;
   overflow: hidden;
+  width: 70%;
   padding: 0px;
   text-align: center;
   touch-action: manipulation;
@@ -53,23 +52,39 @@ form{
   margin-bottom: 10px;
 }
 label{
+  padding-top: 10px;
   margin-bottom: 10px;
+  color: white;
 }
 .login{
   display: flex;
   justify-content: center;
-  border:2px solid #000;
+  border:3px solid rgb(8, 28, 95);
   border-radius: 15px;
-  height: 250px;
+  height: 300px;
   margin-bottom: 20px;
 }
 .log{
   display: flex;
   flex-direction: column;
   width: 40%;
-  height: 300px;
+  height: 350px;
   margin: auto;
 }
 .title{
   text-align: center;
+  color: white;
+}
+#link{
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+#but{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.alert{
+  color: white;
 }

@@ -1,8 +1,17 @@
 .navigation{
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 10px;
     height: 80px;
     display: flex;
     justify-content: space-evenly;
+    padding-top: 15px;
+    color: white;
+}
+header{
+    margin-top: 0;
+    background-color: rgba(3, 3, 3, 0.342);
+    margin-bottom: 30px;
+}
+.logout{
+    color: white;
 }
